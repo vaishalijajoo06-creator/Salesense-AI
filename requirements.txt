@@ -1,0 +1,29 @@
+# SalesSense AI — Python dependencies
+# Install inside a virtual environment:
+#   py -m venv .venv
+#   .venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# Versions below are the exact versions installed and tested in the
+# project virtual environment (Python 3.14.5, Windows 10).
+
+# ── Core data stack ──────────────────────────────────────────────────────────
+pandas==3.0.6
+numpy==2.5.4
+
+# ── Machine learning ─────────────────────────────────────────────────────────
+scikit-learn==1.9.1
+lightgbm==4.7.0
+
+# ── Time-series / statistics ─────────────────────────────────────────────────
+statsmodels==0.15.0
+
+# ── Visualisation ────────────────────────────────────────────────────────────
+plotly==7.1.0
+
+# ── Dashboard ────────────────────────────────────────────────────────────────
+streamlit==1.65.0
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest==9.1.1
+pytest-cov==7.1.0
